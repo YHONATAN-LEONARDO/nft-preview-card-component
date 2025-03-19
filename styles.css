@@ -27,27 +27,66 @@ body {
   place-items: center;
   height: 100vh;
   background-color: var(--Very-dark-blue-main-BG);
+  font-size: 18px;
 }
 main {
-  border: 2px solid black;
   width: 90%;
   padding: 2rem;
   background-color: var(--Very-dark-blue-card-BG);
   display: grid;
   justify-items: center;
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem 5rem var(--Very-dark-blue-card-BG);
 }
 @media (min-width: 768px) {
   main {
-    border: 2px solid black;
     width: 30rem;
     background-color: var(--Very-dark-blue-card-BG);
     display: grid;
     justify-items: center;
-    height: 50rem;
+    height: 48rem;
   }
 }
 #ima {
   width: 100%;
   border-radius: 1rem;
   margin-bottom: 1rem;
+}
+.titulo {
+  color: var(--White);
+}
+.parrafo {
+  color: var(--Soft-blue);
+  margin: 1.5rem 0;
+}
+.between {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--Very-dark-blue-line);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.junto {
+  display: flex;
+  gap: 0.8rem;
+  & .eth {
+    color: var(--Cyan);
+  }
+}
+.left {
+  color: var(--Soft-blue);
+}
+#avatar {
+  width: 3rem;
+  border: 2px solid var(--White);
+  border-radius: 50%;
+}
+.final1 {
+  align-items: center;
+}
+.final {
+  color: var(--Soft-blue);
+  & span {
+    color: var(--White);
+  }
 }
