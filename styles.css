@@ -1,0 +1,53 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --fuenteParrafos: "Outfit";
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--fuenteParrafos);
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: var(--Very-dark-blue-main-BG);
+}
+main {
+  border: 2px solid black;
+  width: 90%;
+  padding: 2rem;
+  background-color: var(--Very-dark-blue-card-BG);
+  display: grid;
+  justify-items: center;
+}
+@media (min-width: 768px) {
+  main {
+    border: 2px solid black;
+    width: 30rem;
+    background-color: var(--Very-dark-blue-card-BG);
+    display: grid;
+    justify-items: center;
+    height: 50rem;
+  }
+}
+#ima {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
