@@ -27,7 +27,6 @@ body {
   place-items: center;
   height: 100vh;
   background-color: var(--Very-dark-blue-main-BG);
-  font-size: 18px;
 }
 main {
   width: 90%;
@@ -58,6 +57,7 @@ main {
 .parrafo {
   color: var(--Soft-blue);
   margin: 1.5rem 0;
+  font-size: 1.5rem;
 }
 .between {
   display: flex;
